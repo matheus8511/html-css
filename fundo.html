@@ -4,73 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testando Cabeçalho</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        /* Estilo para o container do cabeçalho */
-        .header-container {
-            position: relative;
-            height: 200px; /* altura do contêiner */
-            background-color: #00796B;
-        }
-
-        /* Estilo para a imagem dentro do container */
-        .header-container img {
-            position: absolute;
-            top: 50%; /* Centraliza verticalmente */
-            left: 50%; /* Centraliza horizontalmente */
-            transform: translate(-50%, -55%); /* Ajusta a posição centralizada */
-            max-height: 100%;
-            max-width: 100%;
-            background-image: cover;
-        }
-
-
-        #container_menu {
-            position: relative;
-        }
-
-        #conteudo {
-            position: absolute;
-            left: 50%;
-            top: 80%;
-            border-radius: 10px 0px 10px 10px;
-            
-            transform: translate(-51%, -10%);
-        }
-
-
-        ul {
-            list-style-type: none; /* Remove os marcadores de lista */
-            
-            overflow: hidden; /* Evita que os elementos maiores que o container quebrem a linha */
-            background-color: #00796B; /* Cor de fundo do menu */
-        }
-
-        li {
-            float: left; /* Faz com que os itens de lista flutuem à esquerda */
-        }
-
-        li a {
-            display: block; /* Torna os links em blocos para ocupar toda a largura do item de lista */
-            color: white; /* Cor do texto */
-            padding: 14px 16px; /* Adiciona preenchimento ao redor do texto */
-            text-decoration: none; /* Remove a sublinha dos links */
-        }
-
-        li a:hover {
-            background-color: #111; /* Cor de fundo ao passar o mouse */
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header-container">
         <img src="/exercicios/imgs/logo_site.png" alt="Logo do Site">
     </header>
 
-    <nav id="container_menu">
+    <nav id="container_menu" class="sombra-esfumacada">
         <ul id="conteudo">
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre</a></li>
@@ -78,5 +19,7 @@
             <li><a href="#">Contato</a></li>
         </ul>
     </nav>
+
+    
 </body>
 </html>

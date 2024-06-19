@@ -1,3 +1,86 @@
-.preserve-whitespace {
-    white-space: pre-wrap;
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100hv;
+    background-color: darkgray;
+}
+
+section {
+    padding-top: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    
+    
+    
+}
+ header  a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+
+    
+ }
+
+header > h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+
+
+header a:hover {
+    text-decoration: underline whitesmoke;
+    text-shadow: 1px 1px 1px white;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.181);
 }
